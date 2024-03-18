@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     margin: 0;
     padding: 0;
@@ -6,33 +6,33 @@ body {
 
 .cabecera {
     display: flex;
-    justify-content: space-between; /* Esto alinea los elementos al principio y al final */
-    align-items: center; /* Esto centra verticalmente los elementos */
-    background-color: #ffffff; /* Cambia el color de fondo según sea necesario */
-    padding: 10px 20px; /* Ajusta el espacio de relleno según sea necesario */
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #ffffff; 
+    padding: 10px 20px; 
    
 }
 
 .menu ul {
-    list-style-type: none; /* Quita los puntos de lista */
+    list-style-type: none; 
     margin: 0;
     padding: 0;
 }
 
 .menu ul li {
-    display: inline; /* Muestra los elementos de la lista en línea */
+    display: inline; 
   
 }
 
 .menu ul li a {
-    text-decoration: none; /* Quita el subrayado predeterminado del enlace */
-    margin-left: 20px; /* Ajusta el espacio entre los elementos del menú */
-    color: #333; /* Cambia el color del texto del menú según sea necesario */
+    text-decoration: none; 
+    margin-left: 20px; 
+    color: #333; 
 }
 
-/* Estilos específicos del logo */
+
 .cabecera img {
-    width: 300px; /* Ajusta el ancho de la imagen según sea necesario */
-    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    width: 300px; 
+    height: auto; 
 margin-left: 3%;
 }
